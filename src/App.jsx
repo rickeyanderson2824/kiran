@@ -3,7 +3,7 @@ import Footer from "./components/Footer";
 import { Routes, Route, Outlet } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/Index";
-import Contact from "./pages/contact/index";
+import Contact from "./pages/contact";
 import Services from "./pages/Services";
 import Gallery from "./pages/Gallery";
 
