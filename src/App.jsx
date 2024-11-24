@@ -1,9 +1,8 @@
 import { ToastContainer } from "react-toastify";
 import Footer from "./components/Footer";
-import Navbar from "./components/Navbar";
 import { Routes, Route, Outlet } from "react-router-dom";
 import Home from "./pages/Home";
-import About from "./pages/About";
+import About from "./pages/Index";
 import Contact from "./pages/Contact";
 import Services from "./pages/Services";
 import Gallery from "./pages/Gallery";
