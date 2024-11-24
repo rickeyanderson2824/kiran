@@ -1,5 +1,5 @@
 import React, { useRef, useState } from "react";
-import Navbar from "../components/Navbar";
+import Navbar from "../../components/Navbar";
 import emailjs from "@emailjs/browser";
 
 const service_id = import.meta.env.REACT_APP_SERVICE_ID;
