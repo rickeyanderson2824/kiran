@@ -1,5 +1,5 @@
+import Navbar from "@/components/Navbar";
 import React from "react";
-import Navbar from "../components/Navbar";
 
 const Home = () => {
   return (
@@ -12,9 +12,9 @@ const Home = () => {
           <Navbar />
           <div className="flex pb-20 items-end justify-center h-full absolute top-0 left-0 right-0">
             <span className="md:font-semibold text-xl font-normal md:text-4xl text-white animate-slide-fade shadow-lg text-center px-4">
-              "The secret to film is that it's{" "}
+              &quot;The secret to film is that it&apos;s{" "}
               <span className="md:font-semibold md:text-4xl text-xl font-medium text-[#FFBA0A] animate-slide-fade shadow-lg">
-                &nbsp;an illusion." - George Lucas
+                &nbsp;an illusion.&quot; - George Lucas
               </span>
             </span>
           </div>
@@ -24,12 +24,12 @@ const Home = () => {
       <div className="mx-4 md:mx-10">
         <div className="w-full max-w-[90%] mx-auto px-4 md:px-10 shadow-lg rounded-br-3xl rounded-tl-3xl bg-gray-200 h-auto md:h-[250px] flex justify-center items-center my-8">
           <span className="text-gray-900 text-center text-sm md:text-base lg:text-xl font-semibold leading-relaxed tracking-wide px-4">
-            " I'm a filmmaker from Nepal with over eight years of experience in
+            &quot; I&apos;m a filmmaker from Nepal with over eight years of experience in
             the industry. Starting as an assistant director on Hostel Returns in
-            2014, I've since produced and directed films like Kaussidd and Bihe
+            2014, I&apos;ve since produced and directed films like Kaussidd and Bihe
             Pass. I founded Flicker Arts to support independent filmmakers and
-            currently serve as content head at FOPI, Nepal's video-on-demand
-            platform..."
+            currently serve as content head at FOPI, Nepal&apos;s video-on-demand
+            platform...&quot;
           </span>
         </div>
 
@@ -53,7 +53,7 @@ const Home = () => {
           </div>
           <div className="w-full md:w-[30%] mt-4 md:mt-0">
             <img
-              src="public/assets/mirai.png"
+              src="/assets/mirai.png"
               alt="abc"
               className="max-w-full max-h-full object-contain bg-black bg-opacity-40 rounded-lg"
             />
@@ -71,21 +71,21 @@ const Home = () => {
         <div className="columns-2 md:columns-3 gap-2">
           <div className="w-full h-auto break-inside-avoid">
             <img
-              src="public/assets/ma rajesh hamal 1.jpg"
+              src="/assets/ma rajesh hamal 1.jpg"
               alt="abc"
               className="max-w-full max-h-full object-contain bg-black bg-opacity-40 mt-4"
             />
           </div>
           <div className="w-full h-auto break-inside-avoid">
             <img
-              src="public/assets/posters/1 (1).jpeg"
+              src="/assets/posters/1 (1).jpeg"
               alt="abc"
               className="max-w-full max-h-full object-contain bg-black bg-opacity-40 mt-4"
             />
           </div>
           <div className="w-full h-auto break-inside-avoid">
             <img
-              src="public/assets/posters/1 (9).jpg"
+              src="/assets/posters/1 (9).jpg"
               alt="abc"
               className="max-w-full max-h-full object-contain bg-black bg-opacity-40 mt-4"
             />
@@ -113,21 +113,21 @@ const Home = () => {
         <div className="columns-2 md:columns-3 gap-2">
           <div className="w-full h-auto break-inside-avoid">
             <img
-              src="public/assets/posters/1 (6).jpg"
+              src="/assets/posters/1 (6).jpg"
               alt="abc"
               className="max-w-full max-h-full object-contain bg-black bg-opacity-40 mt-4"
             />
           </div>
           <div className="w-full h-auto break-inside-avoid">
             <img
-              src="public/assets/dui char din.jpg"
+              src="/assets/dui char din.jpg"
               alt="abc"
               className="max-w-full max-h-full object-contain bg-black bg-opacity-40 mt-4"
             />
           </div>
           <div className="w-full h-auto break-inside-avoid">
             <img
-              src="public/assets/posters/tyson.png"
+              src="/assets/posters/tyson.png"
               alt="abc"
               className="max-w-full max-h-full object-contain bg-black bg-opacity-40 mt-4"
             />
@@ -154,21 +154,21 @@ const Home = () => {
         <div className="columns-2 md:columns-3 gap-2">
           <div className="w-full h-auto break-inside-avoid">
             <img
-              src="public/assets/haddi.png"
+              src="/assets/haddi.png"
               alt="abc"
               className="max-w-full max-h-full object-contain bg-black bg-opacity-40 mt-4"
             />
           </div>
           <div className="w-full h-auto break-inside-avoid">
             <img
-              src="public/assets/chef.png"
+              src="/assets/chef.png"
               alt="abc"
               className="max-w-full max-h-full object-contain bg-black bg-opacity-40 mt-4"
             />
           </div>
           <div className="w-full h-auto break-inside-avoid">
             <img
-              src="public/assets/Screenshot (2).png"
+              src="/assets/Screenshot (2).png"
               alt="abc"
               className="max-w-full max-h-full object-contain bg-black bg-opacity-40 mt-4"
             />

@@ -1,5 +1,7 @@
+"use client"
 import { useState, useEffect } from "react";
 import { navLinks } from "../constants";
+import Link from "next/link";
 
 const NavItems = () => {
   return (
@@ -53,7 +55,7 @@ const Navbar = () => {
         }}
       >
         <div className="max-w-7xl mx-auto flex justify-between items-center">
-          <a
+          <Link
             href="/"
             className="text-white font-bold text-xl hover:text-white transition-colors"
           >
@@ -75,7 +77,7 @@ const Navbar = () => {
                 Bhusal
               </span>
             </div>
-          </a>
+          </Link>
 
           {/* Mobile Menu Button */}
           <button

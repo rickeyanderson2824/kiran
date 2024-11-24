@@ -1,6 +1,6 @@
 import React from "react";
-import Navbar from "../components/Navbar";
-import { films, international_projects, advertisement } from "../constants";
+import { films, international_projects, advertisement } from "../../constants";
+import Navbar from "@/components/Navbar";
 
 const posters = [
   "1 (1).jpeg",
@@ -98,9 +98,9 @@ const Gallery = () => {
           <Navbar />
           <div className="flex items-end justify-center h-full z-30 absolute top-0 left-0 right-0 p-4 md:pb-20 ">
             <span className="md:font-semibold text-xl font-normal md:text-4xl text-white animate-slide-fade">
-              "Photography is the story we fail to{" "}
+              &quot;Photography is the story we fail to{" "}
               <span className="md:font-semibold text-xl font-normal md:text-4xl text-[#FFBA0A] animate-slide-fade">
-                &nbsp;put into words." – Destin Sparks
+                &nbsp;put into words.&quot; – Destin Sparks
               </span>
             </span>
           </div>
@@ -115,8 +115,8 @@ const Gallery = () => {
           </div>
           <div className="w-full max-w-[80%] mx-auto shadow-lg rounded-br-3xl rounded-tl-3xl bg-gray-200 h-[100px] flex justify-center items-center mb-8">
             <span className="text-gray-900 text-center text-base md:text-xl font-semibold">
-              "Every captured moment tells a part of my journey, both on and off
-              the set." - Kedal Bhusal
+              &quot;Every captured moment tells a part of my journey, both on and off
+              the set.&quot; - Kedal Bhusal
             </span>
           </div>
         </div>
@@ -125,7 +125,7 @@ const Gallery = () => {
           {images.map((image, index) => (
             <div key={index} className="break-inside-avoid mb-2">
               <img
-                src={`public/assets/personal/${image}`}
+                src={`/assets/personal/${image}`}
                 alt={`Image ${index + 1}`}
                 className="w-full h-auto"
               />
@@ -141,8 +141,8 @@ const Gallery = () => {
           </div>
           <div className="w-full max-w-[80%] mx-auto shadow-lg rounded-br-3xl rounded-tl-3xl bg-gray-200 h-[100px] flex justify-center items-center mb-8">
             <span className="text-gray-900 text-center text-base md:text-xl font-semibold">
-              "With each film, I blend artistic vision and compelling
-              narratives, aiming to captivate both local and global audiences."
+              &quot;With each film, I blend artistic vision and compelling
+              narratives, aiming to captivate both local and global audiences.&quot;
               - Kedal Bhusal
             </span>
           </div>
@@ -152,7 +152,7 @@ const Gallery = () => {
           {posters.map((image, index) => (
             <div key={index} className="break-inside-avoid mb-2">
               <img
-                src={`public/assets/posters/${image}`}
+                src={`/assets/posters/${image}`}
                 alt={`Image ${index + 1}`}
                 className="w-full h-auto"
               />
@@ -168,8 +168,8 @@ const Gallery = () => {
           </div>
           <div className="w-full max-w-[80%] mx-auto shadow-lg rounded-br-3xl rounded-tl-3xl bg-gray-200 h-[100px] flex justify-center items-center mb-8">
             <span className="text-gray-900 text-center text-base md:text-xl font-semibold">
-              "Through my lens, I craft stories that capture the heart of Nepali
-              culture and resonate with audiences beyond borders." - Kedal
+              &quot;Through my lens, I craft stories that capture the heart of Nepali
+              culture and resonate with audiences beyond borders.&quot; - Kedal
               Bhusal
             </span>
           </div>
@@ -202,8 +202,8 @@ const Gallery = () => {
           </div>
           <div className="w-full max-w-[80%] mx-auto shadow-lg rounded-br-3xl rounded-tl-3xl bg-gray-200 h-[100px] flex justify-center items-center mb-8">
             <span className="text-gray-900 text-center text-base md:text-xl font-semibold">
-              "My work is deeply rooted in Nepal, but its reach knows no
-              borders." - Kedal Bhusal
+              &quot;My work is deeply rooted in Nepal, but its reach knows no
+              borders.&quot; - Kedal Bhusal
             </span>
           </div>
         </div>
@@ -235,8 +235,8 @@ const Gallery = () => {
           </div>
           <div className="w-full max-w-[80%] mx-auto shadow-lg rounded-br-3xl rounded-tl-3xl bg-gray-200 h-[100px] flex justify-center items-center mb-8">
             <span className="text-gray-900 text-center text-base md:text-xl font-semibold">
-              "I aim to bring products to life through the lens, ensuring they
-              leave a lasting impression." - Kedal Bhusal
+              &quot;I aim to bring products to life through the lens, ensuring they
+              leave a lasting impression.&quot; - Kedal Bhusal
             </span>
           </div>
         </div>

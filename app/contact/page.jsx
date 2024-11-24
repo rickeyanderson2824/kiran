@@ -1,12 +1,12 @@
+"use client"
 import React, { useRef, useState } from "react";
-import Navbar from "../../components/Navbar";
-import emailjs from "@emailjs/browser";
+import Navbar from "@/components/Navbar";
 
-const service_id = import.meta.env.REACT_APP_SERVICE_ID;
-const template_id = import.meta.env.REACT_APP_TEMPLATE_ID;
-const public_key = import.meta.env.REACT_APP_PUBLIC_KEY;
-const receiver_name = import.meta.env.REACT_APP_NAME;
-const receiver_mail = import.meta.env.REACT_APP_MAIL;
+const service_id = process.env.REACT_APP_SERVICE_ID;
+const template_id = process.env.REACT_APP_TEMPLATE_ID;
+const public_key = process.env.REACT_APP_PUBLIC_KEY;
+const receiver_name = process.env.REACT_APP_NAME;
+const receiver_mail = process.env.REACT_APP_MAIL;
 const Contact = () => {
   const formRef = useRef();
   const [loading, setLoading] = useState(false);
@@ -61,9 +61,9 @@ const Contact = () => {
           <Navbar />
           <div className="flex pb-20  items-end justify-center h-full z-30 absolute top-0 left-0 right-0">
             <span className="md:font-semibold text-lg font-normal md:text-4xl text-white animate-slide-fade">
-              "Communication is the bridge between confusion{" "}
+              &quot;Communication is the bridge between confusion{" "}
               <span className="md:font-semibold text-lg font-normal md:text-4xl text-[#FFBA0A] animate-slide-fade">
-                &nbsp;and clarity." – Nat Turner
+                &nbsp;and clarity.&quot; – Nat Turner
               </span>
             </span>
           </div>
@@ -71,10 +71,10 @@ const Contact = () => {
       </div>
       <div className="relative min-h-screen flex items-center justify-center flex-col ">
         <div className="contact-container border-2 border-[#FFBA0A] rounded-3xl p-10 shadow-lg bg-gray-500">
-          <h3 className="head-text pt-2">Let's Talk</h3>
+          <h3 className="head-text pt-2">Let&apos;s Talk</h3>
           <p className="text-lg text-white-600 mt-3">
-            Whether you're aiming to craft an impactful film, develop a unique
-            narrative, or collaborate on an innovative project, I'm here to help
+            Whether you&apos;re aiming to craft an impactful film, develop a unique
+            narrative, or collaborate on an innovative project, I&apos;m here to help
             transform your ideas into reality.
           </p>
           <form

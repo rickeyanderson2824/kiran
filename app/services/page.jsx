@@ -1,6 +1,6 @@
 import React from "react";
-import Navbar from "../components/Navbar";
-import { services } from "../constants";
+import { services } from "../../constants";
+import Navbar from "@/components/Navbar";
 
 const Services = () => {
   return (
@@ -14,9 +14,9 @@ const Services = () => {
           <Navbar />
           <div className="flex pb-10 md:pb-20 items-end justify-center h-full z-30 absolute top-0 left-0 right-0">
             <span className="text-base sm:text-lg md:text-4xl font-normal md:font-semibold text-white animate-slide-fade text-center">
-              "Creativity is intelligence{" "}
+              &quot;Creativity is intelligence{" "}
               <span className="text-base sm:text-lg md:text-4xl font-normal md:font-semibold text-[#FFBA0A] animate-slide-fade text-center">
-                &nbsp;having fun." – Albert Einstein
+                &nbsp;having fun.&quot; – Albert Einstein
               </span>
             </span>
           </div>

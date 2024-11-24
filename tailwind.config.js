@@ -1,28 +1,17 @@
 /** @type {import('tailwindcss').Config} */
-export default {
+module.exports = {
   content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
+    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     extend: {
-      fontFamily: {
-        generalsans: ['General Sans', 'sans-serif'],
-      },
-      fontWeight: {
-        '550': '510',
-      },
-      keyframes: {
-        'slide-fade': {
-          '0%': { opacity: '0', transform: 'translateY(50%)' },
-          '100%': { opacity: '1', transform: 'translateY(0)' },
-        },
-      },
-      animation: {
-        'slide-fade': 'slide-fade 1.5s ease-out forwards',
+      colors: {
+        background: "var(--background)",
+        foreground: "var(--foreground)",
       },
     },
   },
   plugins: [],
-}
-
+};

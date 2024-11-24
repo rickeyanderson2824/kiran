@@ -1,5 +1,5 @@
+import Navbar from "@/components/Navbar";
 import React from "react";
-import Navbar from "../components/Navbar";
 
 const About = () => {
   return (
@@ -13,9 +13,9 @@ const About = () => {
           <Navbar />
           <div className="flex pb-20 items-end justify-center h-full z-30 absolute top-0 left-0 right-0 px-4  ">
             <span className="md:font-semibold text-xl font-normal md:text-4xl text-white animate-slide-fade text-center">
-              "Every great design begins with an even{" "}
+              &quot;Every great design begins with an even{" "}
               <span className="fmd:font-semibold text-xl font-normal md:text-4xl text-[#FFBA0A] animate-slide-fade text-center">
-                &nbsp;better story." – Lorinda Mamo
+                &nbsp;better story.&quot; – Lorinda Mamo
               </span>
             </span>
           </div>
@@ -43,7 +43,7 @@ const About = () => {
 
           <div className="w-full md:w-1/2">
             <img
-              src="public/assets/about_body.JPG"
+              src="/assets/about_body.JPG"
               className="rounded-3xl w-[90%] mx-auto md:mx-0 shadow-lg shadow-gray-800"
               alt="About Image"
             />
@@ -61,7 +61,7 @@ const About = () => {
         <div className="mt-8 w-full mx-4 md:mx-8 flex flex-col md:flex-row justify-center space-y-4 md:space-y-0 md:space-x-4">
           <div className="w-full md:w-1/2">
             <img
-              src="public/assets/personal/1 (13).jpg"
+              src="/assets/personal/1(13).jpg"
               className="rounded-3xl w-[90%] mx-auto md:mx-0 shadow-lg shadow-gray-800"
               alt="Education Image"
             />
@@ -99,7 +99,7 @@ const About = () => {
           </div>
           <div className="w-full md:w-1/2">
             <img
-              src="public/assets/personal/1 (30).jpg"
+              src="/assets/personal/1(30).jpg"
               className="rounded-3xl w-[90%] mx-auto md:mx-0 shadow-lg shadow-gray-800"
               alt="Recent Work Image"
             />
@@ -117,7 +117,7 @@ const About = () => {
         <div className="mt-8 w-full mx-4 md:mx-8 flex flex-col md:flex-row justify-center space-y-4 md:space-y-0 md:space-x-4">
           <div className="w-full md:w-1/2">
             <img
-              src="public/assets/personal/1 (6).jpg"
+              src="/assets/personal/1 (6).jpg"
               className="rounded-3xl w-[90%] mx-auto md:mx-0 shadow-lg shadow-gray-800"
               alt="Global Collaborations Image"
             />
